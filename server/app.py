@@ -21,10 +21,10 @@ def show_session(key):
             for cookie in request.cookies],
     }), 200)
 
-    response.set_cookie('mouse', 'Cookie')
+    response.set_cookie('Fridayyy', 'hola seniorita')
 
     return response
 
 if __name__ == '__main__':
-    app.run(port=5555)
+    app.run(port=5555, debug=True)
     
